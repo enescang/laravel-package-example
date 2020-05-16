@@ -1,0 +1,23 @@
+{
+    "name": "kodlib/jsoon",
+    "description": "It creates quickly json object",
+    "type": "library",
+    "require": {
+        "illuminate/support": "7.x-dev",
+        "php": "^7.2",
+        "phpunit/phpunit": "8.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kodlib\\Jsoon\\":"src"
+        }  
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kodcanlisi",
+            "email": "developerindiee@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
